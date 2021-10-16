@@ -85,7 +85,7 @@ createPlayer(players[0].classPlayer, players[0]);
 createPlayer(players[1].classPlayer, players[1]);
 
 function randomHpGenerator() {
-  return Math.floor(Math.random() * 20 - 1);
+  return Math.floor(Math.random() * 20);
 }
 
 function checkHp(players) {
